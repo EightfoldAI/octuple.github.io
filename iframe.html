@@ -338,8 +338,24 @@
         /* eslint-enable object-shorthand */
       })
     );
-  };</script><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet"><style>html, body {
+  };</script><link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet"><style>html,
+    body {
         font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .virtual-table .table-container:before,
+    .virtual-table .table-container:after {
+        display: none;
+    }
+    .virtual-table-cell {
+        background: white;
+        border-bottom: 1px solid #d9dce1;
+        box-sizing: border-box;
+        overflow: hidden;
+        padding: 16px;
+    }
+    .grouped-th {
+        border-bottom: none !important;
     }</style><link href="main.css" rel="stylesheet"><style>#root[hidden],
       #docs-root[hidden] {
         display: none !important;
@@ -363,4 +379,4 @@
           
       
           
-            window['STORIES'] = [{"titlePrefix":"","directory":"./src","files":"**/*.stories.mdx","importPathMatcher":"^\\.[\\\\/](?:src(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)\\/|\\/|$)(?!\\.)(?=.)[^/]*?\\.stories\\.mdx)$"},{"titlePrefix":"","directory":"./src","files":"**/*.stories.@(js|jsx|ts|tsx)","importPathMatcher":"^\\.[\\\\/](?:src(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)\\/|\\/|$)(?!\\.)(?=.)[^/]*?\\.stories\\.(js|jsx|ts|tsx))$"}];</script><script src="main.971f416d.iframe.bundle.js"></script></body></html>
+            window['STORIES'] = [{"titlePrefix":"","directory":"./src","files":"**/*.stories.mdx","importPathMatcher":"^\\.[\\\\/](?:src(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)\\/|\\/|$)(?!\\.)(?=.)[^/]*?\\.stories\\.mdx)$"},{"titlePrefix":"","directory":"./src","files":"**/*.stories.@(js|jsx|ts|tsx)","importPathMatcher":"^\\.[\\\\/](?:src(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)\\/|\\/|$)(?!\\.)(?=.)[^/]*?\\.stories\\.(js|jsx|ts|tsx))$"}];</script><script src="main.4eae2dee.iframe.bundle.js"></script></body></html>
